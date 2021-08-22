@@ -1,3 +1,5 @@
+//frag bullets go first, main bullets go last
+
 const intralProjFrag = extend(LaserBulletType, {
   damage: 75,
   lifetime: 25,
@@ -21,7 +23,7 @@ const nullifierProj = extend(BasicBulletType, {
   lifetime: 60 * 4.5,
   width: 8 * 3,
   height: 8 * 3,
-  hitEffect: Fx.breakBlock,
+  hitEffect: Fx.unitCapKill,
 });
 
 module.exports = {

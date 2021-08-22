@@ -9,7 +9,7 @@ const nullifier = extend(PowerTurret, "nullifier", {
   targetGround: true,
   reloadTime: 25,
   rotateSpeed: 25,
-  range: 33.75 * 8,
+  range: 168.75 * 8,
   powerUse: 60 * 1,
   category: Category.turret,
   buildVisibility: BuildVisibility.sandboxOnly,
