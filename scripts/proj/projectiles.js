@@ -17,4 +17,5 @@ const intralProj = extend(BasicBulletType, {
 
 module.exports = {
   intralProj: intralProj,
+  intralProjFrag: intralProjFrag,
 };

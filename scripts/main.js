@@ -1,2 +1,2 @@
 require("turrets/intral");
-requure("proj/projectiles");
+require("proj/projectiles");
